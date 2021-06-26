@@ -1,0 +1,64 @@
+header {
+    color: white;
+    background-color: black;
+    height: auto;
+    width: auto;
+    float: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: 'Roboto', sans-serif;
+
+
+ 
+    
+}
+
+header:hover {
+    opacity: 1.0;
+}
+
+.logo {
+    height: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+nav {
+    color: rgba(255,255,255,1.00);  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 3px;
+    font-weight: 300;
+
+      
+    
+}
+
+nav ul {
+    padding-left: 60px;
+    color: rgba(255,255,255,1.00);
+
+    
+}
+
+.background {
+    background-color: black;
+    background-image: url(images/header_photo.jpg);
+    background-position: top center;
+    color: white;
+    
+}
+
+.background_image {
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+}
