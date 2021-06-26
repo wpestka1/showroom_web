@@ -16,8 +16,11 @@ header {
     
 }
 
-header:hover {
-    opacity: 1.0;
+.main_button:hover {
+    opacity: 0.5;
+    transition-duration: .7s;
+    background-color: #F2EBDF;
+    color: black;
 }
 
 .logo {
@@ -109,4 +112,32 @@ nav ul {
     padding-right: 30px;
     padding-left: 38px;
     margin-top: 30px;
+}
+
+.container_projekt {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.salon1 {
+    margin-left: 50px;
+    height: 500px;
+
+}
+
+.nasze_projekty {
+    margin-left: 20%;
+    margin-right: 40px;
+
+}
+
+.salon1_img {
+    margin-left: 50px;
+    height: 500px;
+    border-left: 1px solid black;
+    margin-right: 20%;
 }
