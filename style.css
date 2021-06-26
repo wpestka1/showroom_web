@@ -1,3 +1,5 @@
+html{scroll-behavior:smooth}
+
 header {
     color: white;
     background-color: black;
@@ -123,21 +125,37 @@ nav ul {
     margin-top: 60px;
 }
 
-.salon1 {
-    margin-left: 50px;
-    height: 500px;
-
-}
-
 .nasze_projekty {
     margin-left: 20%;
     margin-right: 40px;
+}
 
+.header_projekt {
+    font-family:  'Viaoda Libre', cursive;
+    font-size: 100px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+
+
+
+.tekst1 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    line-height: 150%;
+    font-weight: 300;
 }
 
 .salon1_img {
     margin-left: 50px;
     height: 500px;
-    border-left: 1px solid black;
+    border-left: 1.5px solid black;
     margin-right: 20%;
+}
+
+.salon1 {
+    margin-left: 50px;
+    height: 500px;
+
 }
