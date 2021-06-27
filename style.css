@@ -19,25 +19,7 @@ header {
   
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width:90%;
-    opacity: .7;
-  }
-  
 
-
-.main_button:hover {
-    opacity: 0.5;
-    transition-duration: .7s;
-    background-color: #F2EBDF;
-    color: black;
-}
-
-.main_button:not(:hover) {
-    transition-duration: .7s;
-}
 
 .logo {
     height: 60px;
@@ -146,6 +128,18 @@ ul:not(:hover) {
     margin-top: 30px;
 }
 
+.main_button:hover, #my_button:hover {
+    opacity: 0.5;
+    transition-duration: .7s;
+    background-color: #F2EBDF;
+    color: black;
+}
+
+.main_button:not(:hover), #my_button:not(:hover) {
+    transition-duration: .7s;
+}
+
+
 .container {
     color: black;
     display: flex;
@@ -166,15 +160,19 @@ ul:not(:hover) {
 }
 
 .header_projekt {
-    font-family:  'Viaoda Libre', cursive;
-    font-size: 100px;
+
     margin-bottom: 20px;
-    font-weight: 200;
-    letter-spacing: 5px;
+
     margin-right: 20px;
 }
 
-
+.naglowek {
+    font-family:  'Viaoda Libre', cursive;
+    font-size: 100px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    color: black;
+}
 
 .tekst1 {
     font-family: 'Roboto', sans-serif;
@@ -190,14 +188,14 @@ ul:not(:hover) {
     margin-top: 40px;
  }
 
-.salon1 {
+.img1 {
     margin-left: 50px;
     height: 500px;
  
 
 }
 
-.salon1:hover {
+.img1:hover {
     height: 110%;
     transition-delay: 0.3s;
     transition-duration: 0.6s;
@@ -205,7 +203,7 @@ ul:not(:hover) {
     
 }
 
-.salon1:not(:hover) {
+.img1:not(:hover) {
         transition-duration: 0.6s;
         height: 100%;
 }
@@ -214,35 +212,102 @@ ul:not(:hover) {
     display: flex;
 }
 
-
-.salon2 {
+.img2_img {
+        margin-right: 30px;
+}
+.img2 {
     height: 335px;
-    padding-right: 30px;
+    margin-bottom: 30px;
 }
 
-.salon2:hover {
+.img2:hover {
     height: 360px;
     transition-delay: 0.3s;
     transition-duration: 0.6s;
+    margin-top: -30px;
 }
 
-.salon3 {
+.img3_img {
+        margin-left: 25px;
+}
+
+.img3 {
     height: 335px;
-    margin-left: 25px;
+    margin-bottom: 30px;
 }
 
-.salon3:hover {
+.img3:hover {
     height: 360px;
     transition-delay: 0.3s;
     transition-duration: 0.6s;
+    margin-top: -30px;
 }
-.salon2:not(:hover) {
+.img2:not(:hover) {
     transition-duration: 0.6s;
-    height: 340px;
+    height: 335px;
 }
 
- .salon3:not(:hover){
+ .img3:not(:hover){
     transition-duration: 0.6s;
-    height: 340px;
+    height: 335px;
  }
 
+
+ 
+.line {
+    display: flex;
+    border-top: 1.5px solid black;
+    height: 20px;
+    margin-top: 80px;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+
+#inspirujace_wnetrza {
+    text-align: center;
+    font-size:70px;
+    letter-spacing: 7px;
+    margin-top: 20px;
+}
+
+.tekst3 {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 5px;
+}
+
+#bezplatna_wycena {
+    margin-top: 40px;
+}
+
+.img4 {
+    /* background-image: url(images/img4.jpg);  */
+    width: 100%;
+    position: absolute;
+
+}
+
+#my_button {
+    background-color: black;
+    text-align: center;
+    position: relative;
+    align-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 20%;
+    margin-bottom: 50%;
+    border-color: blanchedalmond;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height:30px;
+    font-size: 20px;
+}
+
+#my_button:hover {
+    opacity: 0.7;
+   
+}
