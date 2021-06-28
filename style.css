@@ -7,7 +7,7 @@ header {
     color: white;
     background-color: black;
     height: auto;
-    width: 90%;
+    width: 100%;
     float: none;
     display: flex;
     justify-content: space-between;
@@ -32,7 +32,7 @@ nav {
     justify-content: space-between;
     letter-spacing: 1px;
     font-weight: 300;
-    margin-right: 200px;
+    margin-right: 40px;
  
 }
 
@@ -64,7 +64,7 @@ ul:not(:hover) {
 .main {
     background-color: black;
     /* background-image: url(images/header_photo.jpg); */
-    background-position: top center;
+    /* background-position: top center; */
     color: white;
     height: 100px;
     
@@ -75,7 +75,7 @@ ul:not(:hover) {
     display: block;
     /* margin-left: auto;
     margin-right: auto; */
-    height: 600px;
+    /* height: 600px; */
     width: 100%;
     text-align: center;
 
@@ -118,7 +118,6 @@ ul:not(:hover) {
     border: 1px solid white;
     align-items: center;
     display: inline-block;
-    position: relative;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 30px;
@@ -143,12 +142,9 @@ ul:not(:hover) {
 .container {
     color: black;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* margin-top: 60px;     */
-    margin-right: 20%;   
-    margin-left: 20%;
+
 }
 
 .nasze_projekty {
@@ -286,6 +282,8 @@ ul:not(:hover) {
     position: absolute;
 
 }
+
+
 #bezplatna_wycena {
     margin-top: 40px;
 }
@@ -316,6 +314,7 @@ ul:not(:hover) {
 
 #line2 {
     margin-top:20%;
+    border-color: white;
 }
 
 .tekst4 {
@@ -327,15 +326,15 @@ ul:not(:hover) {
 
 
 #img5 {
-    height: 400px;
+    height: 500px;
     /* margin-right: 20px; */
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: -40px;
 }
 
 #img5:hover {
-    height: 450px;
-    margin-top: -10px;
+    height: 550px;
+    margin-top: -50px;
     transition-delay: .3s;
     transition-duration: .7s;
 }
@@ -360,4 +359,17 @@ ul:not(:hover) {
 .tekst5 {
     margin-right: -20%;
     margin-left: 40px;
+}
+
+#wycena {
+    font-size: 50px;
+}
+
+#my_button2 {
+    border-color: black;
+    color:black;
+}
+
+#my_button2:hover {
+    color: black;
 }
