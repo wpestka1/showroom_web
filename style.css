@@ -74,19 +74,17 @@ ul:not(:hover) {
 .back {    
     background-image: url(images/header_photo.jpg);
     display: block;
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* height: 600px; */
     width: 100%;
     text-align: center;
-
+    padding-bottom: 40px;
 }
 
 
 .header_text {
-    padding-top: 200px;
+    margin-top: -50px;
+    padding-top: 170px;
     border-bottom: 1px solid white;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .trendy, .wnetrza, .main_button {
@@ -133,7 +131,7 @@ ul:not(:hover) {
     color: black;
 }
 
-.main_button:not(:hover), #my_button:not(:hover) {
+.main_button:not(:hover), #my_button:not(:hover), #my_button2:not(:hover) {
     transition-duration: .7s;
 }
 
@@ -373,10 +371,30 @@ ul:not(:hover) {
 }
 
 #my_button2 {
-    border-color: black;
     color:black;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 400;
+    border-radius: 10px  ;
+    border: 1.5px solid black;
+    align-items: center;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+    
 }
 
 #my_button2:hover {
-    color: black;
+    color: white;
+    transition-delay: .3s;
+    transition-duration: .7s;
+    background-color: #BFBBB8;
+    border-color: #BFBBB8;
+}
+
+#my_container2 {
+    padding-right: 40px;
 }
