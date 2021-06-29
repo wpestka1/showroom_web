@@ -21,9 +21,6 @@ header {
   
 }
 
-.logo {
-    height: 60px;
-}
 
 nav {
     color: rgba(255,255,255,1.00);  
@@ -405,12 +402,55 @@ footer {
     width: 100%;
     height: 280px;
     display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .text-light {
     font-family:  'Viaoda Libre', cursive;
     letter-spacing: 4px;
 }
+
+#kontakt {
+    margin-top: 5%;
+}
+
+
+#logo {
+    height: 15%;
+    margin-left: -10px;
+}
+
+
+#my_kontakt {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.adres {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.icon {
+    width: 30px;
+}
+
+
+
+#map {
+    
+    margin-top: 5%;
+}
+
+
+
+@media (max-width: 600px) {
+    .text-center{
+      display: none;
+    }
+  }
 
 
 
