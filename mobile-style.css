@@ -89,7 +89,15 @@
 
 }
 
-/***********************/
+/************ SMALL LAPTOP ***********/
+@media screen and (max-width: 1280px) {
+    #logo {
+        width: 300px;
+    }
+    
+
+
+/***********TABLET************/
 
 @media screen and (max-width: 991px) {
     #logo {
@@ -182,13 +190,13 @@
     }
 
         .adres{
-            margin-left: 20%;
-            margin-right: 20%;
+            margin-left: auto;
+            margin-right: auto;
         }
     #map {
         margin-top: 3%;
-       margin-right: 20%;
-       margin-left: 10%;
+        margin-left: 17%;
+        margin-right: auto;
 
     }
 
@@ -197,13 +205,7 @@
     }
    
 }
-/************ SMALL LAPTOP ***********/
-    @media screen and (max-width: 1280px) {
-        #logo {
-            width: 300px;
-        }
-        
-    
+
 /************* MOBILE ***********/
 
     @media screen and (max-width: 479px) {
@@ -336,9 +338,9 @@
         }
     
         #map {
-            margin-top: 3%;
+            margin-top: 40px;
            margin-right: auto;
-           margin-left: -80px;
+           margin-left: -18%;
     
         }
     
