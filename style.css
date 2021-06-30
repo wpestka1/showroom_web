@@ -398,9 +398,15 @@ footer {
     letter-spacing: 4px;
 }
 
+.kontakt {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;;
+}
 #kontakt {
     margin-top: 5%;
-    /* margin-right: 10%; */
+    margin-right: 10%;
+
 }
 
 
@@ -433,6 +439,11 @@ footer {
 
 #map {
     margin-top: 5%;
+    width:400px;
+     height:200px;
+     margin-right: auto;
+     margin-left: auto;;
+     margin-top: auto;
 }
 
 

@@ -124,6 +124,7 @@
      #img5{
          height: 420px;
         display: block;
+        margin-right: auto;
     }
 
 
@@ -170,15 +171,24 @@
         margin-bottom: 15px;
     }
 
+    .kontakt {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
     #kontakt {
-        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
     }
 
+        .adres{
+            margin-left: 20%;
+            margin-right: 20%;
+        }
     #map {
-        position: absolute;
-        margin-top: 0%;
-        padding-bottom: 30px;
-       
+        margin-top: 3%;
+       margin-right: 20%;
+       margin-left: 10%;
 
     }
 
@@ -199,6 +209,10 @@
     @media screen and (max-width: 479px) {
         div {
             text-align: center;
+        }
+
+        .back {
+            width: 100%;
         }
         #logo {
             width: 180px;
@@ -235,6 +249,8 @@
         .photo1 {
             display: block;
             margin-bottom: -170px;
+            margin-right: auto;
+            margin-left: auto;
         }
 
         .img1 {
@@ -245,8 +261,10 @@
         }
     
          #img5{
-             height: 420px;
+            height: 420px;
             display: block;
+            margin-right: auto;
+            margin-left: auto;
         }
     
     
@@ -256,7 +274,7 @@
             letter-spacing: 5px;
          }
          #inspirujace_wnetrza {
-             font-size: 30px;
+             font-size: 35px;
          }
          .tekst3 {
              font-size: 10px;
@@ -273,7 +291,7 @@
         }
          #my_button2 {
             text-align: center;
-            position: ab;
+            margin-left: 0px;
         }
     
         .photo2 {
@@ -284,34 +302,43 @@
         }
         
         #wycena {
-            font-size: 30px;
+            font-size: 35px;
             margin-top: -70px;
         }
+
+        #my_container2{
+            margin-right: auto;
+            margin-left: auto;
+            padding-right: 0px;
+            
+        }
         footer {
-            padding-top: -70px;
-         
+            margin-top: 200px;
         }
     
         #logo1 {
-            height: 60px;
-            justify-content: center;
+            height: 40px;
+            margin-left: auto;
+            margin-right: auto;
             margin-top: 30px;
+            margin-left: -30px;
         }
     
         #my_kontakt {
             text-align: center;
             margin-bottom: 15px;
         }
-    
+        .kontakt {
+            display: block;
+        }
         #kontakt {
             justify-content: center;
         }
     
         #map {
-            position: absolute;
-            margin-top: 0%;
-            padding-bottom: 30px;
-           
+            margin-top: 3%;
+           margin-right: auto;
+           margin-left: -80px;
     
         }
     
