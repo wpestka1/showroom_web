@@ -1,0 +1,67 @@
+/***********************/
+
+@media screen and (max-width: 991px) {
+    #logo {
+        width: 300px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    
+    .header_projekt {
+        margin-bottom: 20px;    
+        text-align: center;
+    }
+    
+.nasze_projekty {
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 5%;
+    border-right: hidden;
+    } 
+
+    footer {
+        display: block;
+    }
+
+    .photo1 {
+        display: none;
+    }
+
+     .naglowek {
+         font-size: 60px;
+        text-align: center;
+        letter-spacing: 5px;
+     }
+     #inspirujace_wnetrza {
+         font-size: 50px;
+     }
+    }
+
+/************ SMALL LAPTOP ***********/
+    @media screen and (max-width: 1280px) {
+        #logo {
+            width: 300px;
+        }
+        
+    
+
+    @media screen and (max-width: 479px) {
+        #logo {
+            width: 300px;
+        }
+
+        .container {
+            display: block;
+        }
+
+        .naglowek {
+            font-size: 60px;
+        }
+
+        .nasze-projekty {
+            border-right:white;
+        }
+    }
