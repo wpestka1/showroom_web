@@ -1,3 +1,94 @@
+/*********** hovers ************/
+
+@media screen and (min-width: 992px) {
+
+    ul:hover {
+        font-weight: 400;
+        font-size: 110% ;
+        transition-duration: 1s;
+    
+    }
+    
+    ul:not(:hover) {
+        font-weight: 300;
+        font-size: 100% ;
+        transition-duration: .7s;
+    }
+
+    .main_button:hover, #my_button:hover {
+        opacity: 0.5;
+        transition-duration: .7s;
+        background-color: #F2EBDF;
+        color: black;
+    }
+    
+    .main_button:not(:hover), #my_button:not(:hover), #my_button2:not(:hover) {
+        transition-duration: .7s;
+    }
+
+    
+.img1:hover {
+    height: 110%;
+    transition-delay: 0.3s;
+    transition-duration: 0.6s;
+    margin-top: -20px;
+    
+}
+
+.img1:not(:hover) {
+        transition-duration: 0.6s;
+        height: 100%;
+}
+
+.img2:hover {
+    height: 360px;
+    transition-delay: 0.3s;
+    transition-duration: 0.6s;
+    margin-top: -30px;
+}
+
+.img3:hover {
+    height: 360px;
+    transition-delay: 0.3s;
+    transition-duration: 0.6s;
+    margin-top: -30px;
+}
+.img2:not(:hover) {
+    transition-duration: 0.6s;
+    height: 335px;
+}
+
+ .img3:not(:hover){
+    transition-duration: 0.6s;
+    height: 335px;
+ }
+ #my_button:hover {
+    opacity: 0.7;
+   
+}
+
+#img5:hover {
+    height: 550px;
+    margin-top: -50px;
+    transition-delay: .3s;
+    transition-duration: .7s;
+}
+#img5:not(:hover) {
+
+    transition-delay: .3s;
+    transition-duration: .7s;
+}
+#my_button2:hover {
+    color: white;
+    transition-delay: .3s;
+    transition-duration: .7s;
+    background-color: #BFBBB8;
+    border-color: #BFBBB8;
+}
+
+
+}
+
 /***********************/
 
 @media screen and (max-width: 991px) {
@@ -15,10 +106,10 @@
         text-align: center;
     }
     
-.nasze_projekty {
+    .nasze_projekty {
     margin-top: 10px;
-    margin-left: 10%;
-    margin-right: 5%;
+    margin-right: auto;
+    margin-left: auto;
     border-right: hidden;
     } 
 
@@ -30,16 +121,72 @@
         display: none;
     }
 
+     #img5{
+         height: 420px;
+        display: block;
+    }
+
+
      .naglowek {
-         font-size: 60px;
+        font-size: 60px;
         text-align: center;
         letter-spacing: 5px;
      }
      #inspirujace_wnetrza {
          font-size: 50px;
      }
+
+     #my_button {
+        margin-right: auto;
+        margin-left: 25%;
+        margin-top: 13%;
+     }
+
+     #my_button2 {
+        margin-right: auto;
+        margin-left: 25%;
+        text-align: center;}
+
+    .photo2 {
+        display: block;
+        margin-right: auto;
+        margin-left: 17%;
+        margin-top: 80px;
     }
 
+    footer {
+        padding-top: -70px;
+     
+    }
+
+    #logo1 {
+        height: 60px;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    #my_kontakt {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    #kontakt {
+        justify-content: center;
+    }
+
+    #map {
+        position: absolute;
+        margin-top: 0%;
+        padding-bottom: 30px;
+       
+
+    }
+
+    .Copyright {
+        display: none;
+    }
+   
+}
 /************ SMALL LAPTOP ***********/
     @media screen and (max-width: 1280px) {
         #logo {
@@ -47,21 +194,128 @@
         }
         
     
+/************* MOBILE ***********/
 
     @media screen and (max-width: 479px) {
+        div {
+            text-align: center;
+        }
         #logo {
-            width: 300px;
+            width: 180px;
+        }
+        
+        .trendy {
+            font-size: 20px;
         }
 
+        .wnetrza {
+            font-size: 30px;
+        }
         .container {
             display: block;
         }
-
-        .naglowek {
-            font-size: 60px;
+    
+        
+        .header_projekt {
+            margin-bottom: 20px;    
+            text-align: center;
+        }
+        
+        .nasze_projekty {
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-right: hidden;
+        } 
+    
+        footer {
+            display: block;
+        }
+    
+        .photo1 {
+            display: block;
+            margin-bottom: -170px;
         }
 
-        .nasze-projekty {
-            border-right:white;
+        .img1 {
+            
+        margin-right: auto;
+        margin-left: auto;
+            height: 300px;
         }
-    }
+    
+         #img5{
+             height: 420px;
+            display: block;
+        }
+    
+    
+         .naglowek {
+            font-size: 40px;
+            text-align: center;
+            letter-spacing: 5px;
+         }
+         #inspirujace_wnetrza {
+             font-size: 30px;
+         }
+         .tekst3 {
+             font-size: 10px;
+         }    
+         #my_button {
+           display: none;
+         }
+    
+        .img4 {
+            position: relative;
+            width: 90%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+         #my_button2 {
+            text-align: center;
+            position: ab;
+        }
+    
+        .photo2 {
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 80px;
+        }
+        
+        #wycena {
+            font-size: 30px;
+            margin-top: -70px;
+        }
+        footer {
+            padding-top: -70px;
+         
+        }
+    
+        #logo1 {
+            height: 60px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+    
+        #my_kontakt {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+    
+        #kontakt {
+            justify-content: center;
+        }
+    
+        #map {
+            position: absolute;
+            margin-top: 0%;
+            padding-bottom: 30px;
+           
+    
+        }
+    
+        .Copyright {
+            display: none;
+        }
+    }}
